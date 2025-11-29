@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #dcdfe4;
+}
+
+.main-header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.nav a {
+    color: #cfcfcf;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.content {
+    width: 85%;
+    max-width: 1000px;
+    background: white;
+    margin: 45px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.18);
+}
+
+table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+th {
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background: #f2f2f2;
+}
+
+/* Conditional row colors */
+.out-of-stock {
+    background-color: #f8d7da; /* red */
+}
+
+.low-stock {
+    background-color: #fff3cd; /* yellow */
+}
+
+.available {
+    background-color: #d4edda; /* green */
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #2c2c2c;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background: #4a4a4a;
+}
+
+.offer {
+    background: #e5f3e5;
+    padding: 12px;
+    margin-top: 20px;
+    border-left: 6px solid red;
+    border-radius: 4px;
+}
+
+.main-footer {
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 60px;
+}
