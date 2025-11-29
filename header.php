@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Ratatat Armory</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -13,3 +13,4 @@
         <a href="products.php">Firearms</a>
     </nav>
 </header>
+
