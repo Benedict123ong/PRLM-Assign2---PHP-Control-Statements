@@ -33,40 +33,56 @@ body {
     box-shadow: 0 3px 10px rgba(0,0,0,0.18);
 }
 
+
 table {
     width: 100%;
     margin-top: 25px;
     border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: center; 
 }
 
 th {
     background: #333;
     color: #fff;
-    padding: 12px;
 }
 
 td {
-    padding: 12px;
     border-bottom: 1px solid #ddd;
 }
 
-tr:hover {
+tr:hover td {
     background: #f2f2f2;
 }
 
-/* Conditional row colors */
+
+td:nth-child(2),   
+td:nth-child(4),   
+td:nth-child(5) {  
+    text-align: right;
+}
+
+
+td:nth-child(3) {
+    text-align: center;
+}
+
+
 .out-of-stock {
-    background-color: #f8d7da; /* red */
+    background-color: #f8d7da; 
 }
 
 .low-stock {
-    background-color: #fff3cd; /* yellow */
+    background-color: #fff3cd; 
 }
 
 .available {
-    background-color: #d4edda; /* green */
+    background-color: #d4edda;
 }
-
 
 
 .button {
